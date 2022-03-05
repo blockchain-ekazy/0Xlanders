@@ -1,0 +1,52 @@
+.Head{
+    background-color: #ffd600 !important;
+}
+.MintBtn{
+    background-color: black;
+    color: white;
+}
+.MintBtn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+.DivB{
+    /* padding: 0px !important;    */
+}
+  }
+.DivC{
+    background-color: #ffd600;
+}
+@media only screen and (max-width: 600px) {
+   
+    .DivC{
+        padding: 0px !important;   
+    }
+      }
+.ImgGig{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.Faq{
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.Dot{
+    font-size: 60px;
+    line-height: 50px;
+}
+.Line{
+    background-color: black;
+    width: 100% !important;
+}
+.DotBG{
+    background-color: #ffbf23;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.ImgSquad{
+    border-radius: 100%;
+}
