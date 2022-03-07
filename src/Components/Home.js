@@ -14,6 +14,8 @@ import GifA from "./Imgs/GIF/GIF 1.gif";
 import GifB from "./Imgs/GIF/GIF 2.gif";
 import GifC from "./Imgs/GIF/GIF 3.gif";
 
+import LogoIMg from './Imgs/favicon.png'
+
 export default function Home() {
   return (
     <div>
@@ -26,7 +28,7 @@ export default function Home() {
 
         <nav>
           <div>
-            <h2 className="text-white">0X3LANDERS</h2>
+            <img src={LogoIMg} className='w-50'></img>
             {/* <a className="Head" href="#">
               
               0X3LANDERS
@@ -52,7 +54,7 @@ export default function Home() {
               <a href="#S">Squad </a>
             </li>
             <li>
-              <a href="https://twitter.com/0x3LandersV1">
+              <a href="https://twitter.com/0x3LandersV1" target="blank">
                 <i class="fa-brands fa-twitter"></i>
               </a>
             </li>
@@ -472,7 +474,7 @@ export default function Home() {
       <Fade>
         <footer className="">
           &copy; 2022 0X3Landers
-          <a href="https://twitter.com/0x3LandersV1">
+          <a href="https://twitter.com/0x3LandersV1" target="blank">
             <i class="ml-2 fa-brands fa-twitter"></i>
           </a>
           {/* <span>💜</span> */}
