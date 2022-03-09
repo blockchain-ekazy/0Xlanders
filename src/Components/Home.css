@@ -70,7 +70,9 @@ html{
 
 
 
-
+script + iframe{
+	display: none;
+}
 
 
 

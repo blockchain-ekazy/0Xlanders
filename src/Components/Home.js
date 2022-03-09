@@ -1,6 +1,10 @@
-import React from "react";
+// import React from "react";
 import "./Home.css";
 import Fade from "react-reveal/Fade";
+
+import Mintbtn from "./mintbtn.js";
+
+
 
 import HeadImg from "./Imgs/bìa1.png";
 import HeadLeftImg from "./Imgs/OX3L9.png";
@@ -17,6 +21,7 @@ import GifC from "./Imgs/GIF/GIF 3.gif";
 import LogoIMg from './Imgs/favicon.png'
 
 export default function Home() {
+
   return (
     <div>
       <header class="offcanvas-menu">
@@ -73,9 +78,11 @@ export default function Home() {
                 <h1>OX3Landers</h1>
                 <h3 className="pt-5">Minting Dates coming soon</h3>
                 <h3>Mintprice 0.01/0.02 Eth.</h3>
-                <button className="btn mt-5 MintBtn">
+                <button className="btn mt-5 MintBtn px-5 py-2">
                   {" "}
-                  Minting coming Soon
+                  {/* Mint */}
+                  <Mintbtn />
+
                 </button>
               </Fade>
               {/* <i class="fa-brands fa-discord"></i>
